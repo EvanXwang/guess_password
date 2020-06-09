@@ -13,6 +13,8 @@ while time > 0  :
 		print ('密碼錯誤')
 		if time > 0 :   # 不要印出剩 0 次機會
 			print ('密碼錯誤！還有', time , '次機會')
+		else:
+			print ('登入失敗，鎖帳號囉')
 		
 
     
